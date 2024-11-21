@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <h1>
+        <center>Login Page</center>
+    </h1>
+    <center>
+        <form action="./loginsuccessfull.html" autocomplete="off">
+            <table border="1" cellpadding="3">
+                <tr>
+                    <td colspan="2">
+
+                        <label for="username">UserName :</label>
+                        <input type="text" name="user" id="username" required pattern="[a-zA-z]+">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+
+                        <label for="Password">Password :</label>
+                        <input type="text" name="password" id="Password" pattern="[a-zA-z0-9@]{8,16}"
+                            title="Enter password minlength 8 and maxlength 16" required>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                            <input type="submit" name="" id="" value="Login">
+                        </center>
+                    </td>
+                </tr>
+        </form>
+        <tr>
+            <td>
+                <a href="./forgot.html">
+                    <center>Forgot</center>
+                </a>
+            </td>
+            <td>
+
+                <a href="./register.html">
+                    <center>Register Here</center>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            
+        </tr>
+        </table>
+    </center>
+
+
+</body>
+
+</html>
