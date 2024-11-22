@@ -26,8 +26,8 @@
                     <td colspan="2">
 
                         <label for="Password">Password :</label>
-                        <input type="text" name="password" id="Password" pattern="[a-zA-z0-9@]{8,16}"
-                            title="Enter password minlength 8 and maxlength 16" required>
+                        <input type="text" name="password" id="Password" pattern="(?=.*[a-z](?=.*[A-Z])(?=.*[\d])(?=.*[\W]).{8,16}"
+                            title="Enter with small letter, capital letter and special and digit  minlength 8 and maxlength 16" required>
 
                     </td>
                 </tr>
