@@ -20,13 +20,12 @@
                 </tr>
                 <tr>
                     <td>
-                        <label for="Password">Password :</label><input type="text" name="password" id="Password"
-                            required minlength="8" maxlength="16">
+                        <label for="Password">Password :</label><input type="text" name="password" id="Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[$%&#@]).{8,16}" title="enter password must contain samll,cap letter and digit and special length 8 to 16 "  required ">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label for="text">Email :</label><input type="email" name="email" id="Email" pattern="[a-z\d]+@(gmail|outlook|yahoo)+\.(com|co|in)" title="Enter any small letters or digits and @ with gamil or outllok or yahoo +. and with com or co or in "  required>
+                        <label for="text">Email :</label><input type="text" name="email" id="Email" pattern="[a-z\d]+@(gmail|outlook|yahoo)+\.(com|co|in)" title="Enter any small letters or digits and @ with gamil or outllok or yahoo +. and with com or co or in "  required>
                     </td>
                 </tr>
                 <tr>
