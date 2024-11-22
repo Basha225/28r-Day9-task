@@ -24,7 +24,7 @@
                 <tr>
                     <td>
                         <label for="psw">Password :</label>
-                        <input type="password" name="password" id="psw" minlength="8" maxlength="16">
+                        <input type="password" name="password" id="psw" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[$%&#@]).{8,16}" title="enter password must contain samll,cap letter and digit and special length 8 to 16 "  required>
                     </td>
                 </tr>
                 <tr>
